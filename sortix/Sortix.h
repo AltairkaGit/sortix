@@ -123,6 +123,7 @@ namespace sortix {
 					continue;
 				}
 				if (arg == "-o") {
+					i++;
 					char* out = argv[i];
 					config.outputFile = out;
 					i++;
